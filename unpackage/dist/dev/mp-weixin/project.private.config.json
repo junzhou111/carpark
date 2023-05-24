@@ -1,0 +1,30 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/duty/duty",
+          "pathName": "pages/duty/duty",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "详情",
+          "pathName": "homepages/allinfo/allinfo",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

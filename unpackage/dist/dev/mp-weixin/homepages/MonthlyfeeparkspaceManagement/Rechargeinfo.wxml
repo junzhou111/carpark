@@ -1,0 +1,1 @@
+<view>{{''+obj+''}}<button data-event-opts="{{[['tap',[['returnsuperior',['$event']]]]]}}" bindtap="__e">返回上级</button></view>

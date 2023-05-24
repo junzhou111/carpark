@@ -1,0 +1,242 @@
+{
+	"lazyCodeLoading": "requiredComponents",
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/OverViewPark/OverViewPark",
+			"style": {
+				"navigationBarTitleText": "车场概况",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#1296db",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "homepages/duty/duty",
+			"style": {
+				"navigationBarTitleText": "集中值守",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "homepages/SiteManagement/SiteManagement",
+			"style": {
+				"navigationBarTitleText": "场内车辆管理",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "homepages/EntryExitRecords/EntryExitRecords",
+			"style": {
+				"navigationBarTitleText": "出入记录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "homepages/FeeRecords/FeeRecords",
+			"style": {
+				"navigationBarTitleText": "收费记录",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+			}
+
+		}, {
+			"path": "homepages/BlackWhiteListManagement/BlackWhiteListManagement",
+			"style": {
+				"navigationBarTitleText": "黑白名单管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "homepages/Coupon/Coupon",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "homepages/OwnerCarManagement/OwnerCarManagement",
+			"style": {
+				"navigationBarTitleText": "业主车管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "homepages/MonthlyfeeparkspaceManagement/MonthlyfeeparkspaceManagement",
+			"style": {
+				"navigationBarTitleText": "月费车位管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "homepages/RemoteOpening/RemoteOpening",
+			"style": {
+				"navigationBarTitleText": "远程开闸",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "homepages/FeeRecords/Fee",
+			"style": {
+				"navigationBarTitleText": "收费详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mypages/changepassword/changepassword",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mypages/Feedback/Feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mypages/Aboutus/Aboutus",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "homepages/MonthlyfeeparkspaceManagement/Monthlyfeeparkspace",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "homepages/MonthlyfeeparkspaceManagement/AddMonthlyfeeparkspace",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "homepages/Coupon/Couponcode",
+			"style": {
+				"navigationBarTitleText": "二维码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "homepages/Coupon/Couponrecord",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "homepages/MonthlyfeeparkspaceManagement/Rechargeinfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "homepages/allinfo/allinfo",
+			"style": {
+				"navigationBarTitleText": "详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "SmartProperty/SmartProperty/SmartProperty",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "SmartAccessControl/SmartAccessControl/SmartAccessControl",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "Chargingstation/Chargingstation/Chargingstation",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"tabBar": {
+		"color": "#515151",
+		"selectedColor": "#1296db",
+		"list": [{
+				"text": "智慧车场",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbaricon/SmartParkingLot.png",
+				"selectedIconPath": "static/tabbaricon/changeSmartParkingLot.png"
+			}, {
+				"text": "智慧门禁",
+				"pagePath": "SmartAccessControl/SmartAccessControl/SmartAccessControl",
+				"iconPath": "static/tabbaricon/SmartAccessControl.png",
+				"selectedIconPath": "static/tabbaricon/changeSmartAccessControl.png"
+			}, {
+				"text": "新能源充电",
+				"pagePath": "Chargingstation/Chargingstation/Chargingstation",
+				"iconPath": "static/tabbaricon/Chargingstation.png",
+				"selectedIconPath": "static/tabbaricon/changeChargingstation.png"
+			}, {
+				"text": "智慧物业",
+				"pagePath": "SmartProperty/SmartProperty/SmartProperty",
+				"iconPath": "static/tabbaricon/SmartProperty.png",
+				"selectedIconPath": "static/tabbaricon/changeSmartProperty.png"
+			},
+			{
+				"text": "系统面板",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbaricon/SystemPanel.png",
+				"selectedIconPath": "static/tabbaricon/changeSystemPanel.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"uniIdRouter": {},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"fui-(.*)": "@/components/firstui/fui-$1/fui-$1.vue"
+		}
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

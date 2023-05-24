@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "二维码",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "ay-qrcode": "/components/ay-qrcode/ay-qrcode"
+  }
+}

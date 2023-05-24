@@ -1,0 +1,1 @@
+<view class="box"><ay-qrcode class="code vue-ref" vue-id="5ff9e952-1" modal="{{modal_qr}}" url="{{urls}}" height="{{300}}" width="{{300}}" data-ref="qrcode" data-event-opts="{{[['^hideQrcode',[['hideQrcode']]]]}}" bind:hideQrcode="__e" bind:__l="__l"></ay-qrcode></view>

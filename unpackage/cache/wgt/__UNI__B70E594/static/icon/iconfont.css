@@ -1,0 +1,48 @@
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: 'iconfont';  /* Project id 4024619 */
+  src: url('https://at.alicdn.com/t/c/font_4024619_21sb5ysnxb2.woff2?t=1681868881648') format('woff2'),
+       url('https://at.alicdn.com/t/c/font_4024619_21sb5ysnxb2.woff?t=1681868881648') format('woff'),
+       url('https://at.alicdn.com/t/c/font_4024619_21sb5ysnxb2.ttf?t=1681868881648') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wodeyouhuiquan:before {
+  content: "\e65a";
+}
+
+.icon-cheliangguanli:before {
+  content: "\e622";
+}
+
+.icon-yuanchengkaizha-:before {
+  content: "\e62a";
+}
+
+.icon-changneicheliangguanli:before {
+  content: "\e643";
+}
+
+.icon-churujilu-:before {
+  content: "\e714";
+}
+
+.icon-shoufeijilu:before {
+  content: "\e62d";
+}
+
+.icon-heibaimingdanguanli:before {
+  content: "\ea9c";
+}
+
+.icon-yezhucheshoufeizhangdan:before {
+  content: "\e6ba";
+}
+
